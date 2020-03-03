@@ -1,0 +1,24 @@
+/*header-logo*/
+
+
+
+
+/* nav-bar*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: small;
+    font-weight: bold;
+    }
+.nav{
+    list-style-type: none;
+    margin-left: 120px;
+}
+.nav li{
+    display: inline-block;
+    padding: 8px;
+}
+.nav li a{
+    color: black;
+    text-decoration: none;
+}
