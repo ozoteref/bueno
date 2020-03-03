@@ -1,0 +1,14 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header{
+    padding: 15px;
+}
+
+.cont-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
