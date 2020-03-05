@@ -1,5 +1,13 @@
 /*header-logo*/
-
+header{
+    padding: 15px;
+}
+.cont-logo {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 40px;
+}
 
 
 
@@ -39,7 +47,7 @@ div.all {
 div.image {
     display: flex;
     align-items: center;
-    background-image: url("img/sakura.jpg");
+    background-image: url("../img/sakura.jpg");
     background-size: cover;
     float: left;
     width: 33%;
