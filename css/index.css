@@ -1,0 +1,91 @@
+/*header-logo*/
+header{
+    padding: 15px;
+}
+.cont-logo {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+
+
+/* nav-bar*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-size: small;
+    font-weight: bold;
+    }
+.nav{
+    list-style-type: none;
+    margin-left: 120px;
+}
+.nav li{
+    display: inline-block;
+    padding: 8px;
+}
+.nav li a{
+    color: black;
+    text-decoration: none;
+}
+
+/* Bloque Healty */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,600,700&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+div.all {
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+div.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    width: 33%;
+    min-width: 170px;
+    height: 250px;
+    box-sizing: border-box;
+    padding: 15px;
+    position: relative;
+    
+}
+div.image img{
+    width: 100%;
+    height: auto;
+}
+div.image-card {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    width: 70%;
+    height: 40%;
+    padding: 14px 5px 12px 5px;
+    box-sizing: border-box; 
+    position: absolute;  
+   
+}
+div.image-card-title {
+    width: 90%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #b0c364;
+    font-size: 10px;
+    font-weight: 600;
+    border-style: solid;
+    text-align: center;
+}
+div.image-card-title span {
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+}
