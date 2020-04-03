@@ -323,7 +323,6 @@ section#main-8Cards{
     max-width: 1024px;
     height: 50vh;
     margin: 0 auto; /* Centrar los divs */
-    margin-top: 2%; /*margen de arribita */
     padding: 1%; /* La separación que hay entre la imagen el div */   
     float: left;
 }
@@ -357,12 +356,12 @@ section#main-8Cards{
     line-height : 10px;
 }
 
-time{
+.content time{
     font-size: smaller;
-    color: #7a7a7a;   
+    color: #7a7a7a; 
 }
 
-p{
+.content p{
     padding-top: 15px;
     font-size: small;
     color: #7a7a7a;
@@ -394,7 +393,6 @@ div.right-card-one-img img {
 div.right-card-one-content {
     width: 75%;
     box-sizing: border-box;
-    padding-top: 5px;
 }
 div.right-card-one-content p {
     color: #7a7a7a;
