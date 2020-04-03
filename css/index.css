@@ -1,3 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,600,700&display=swap');
+
+/* html */
+html {
+    padding: 0;
+    margin: 0;
+    width: auto;
+    min-width: 1024px;
+    height: auto;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
 /*header-logo*/
 header{
     padding: 15px;
@@ -6,18 +22,10 @@ header{
     display:flex;
     flex-direction: row;
     justify-content: center;
-    padding-bottom: 40px;
 }
 
 
-
 /* nav-bar*/
-@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-body{
-    font-family: 'Montserrat', sans-serif;
-    font-size: small;
-    font-weight: bold;
-    }
 .nav{
     list-style-type: none;
     margin-left: 120px;
@@ -31,17 +39,113 @@ body{
     text-decoration: none;
 }
 
-/* Bloque Healty */
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,600,700&display=swap');
-body{
-    font-family: 'Montserrat', sans-serif;
+.nav li a:hover{
+    color: #b0c364;
 }
 
+/* carrusel */
+#container-slayder{
+ max-width: 90%;
+}
+
+.center{
+    position: relative;
+    left: 50%;
+    top: 110px;
+    transform: translate(-50%,-50%);
+}
+
+.imgadap{
+    width: 500px;
+    height: 500px;
+    padding: 10px;
+    position: relative;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.slick-prev{
+    position: absolute;
+    left: 0px;
+    top:45%;
+    color: #ffffff;
+    background-color: #b0c364;
+    padding: 0px;
+    width: 4.5em;
+    height: 3em;
+    text-align: center;
+}
+
+.slick-next{
+    position: absolute;
+    right: 9px;
+    top:45%;
+    color: #ffffff;
+    background-color: #b0c364;
+    padding: 0px;
+    width: 4.5em;
+    height: 3em;
+    text-align: center;
+}
+
+/* Card del carrusel*/
+
+.slider-content{
+    position: absolute;
+    top: 30px;
+    left: 60px;
+    background-color: #ffffff;
+    width: 70%;
+    height: 80%;
+    text-align: center;
+}
+
+.container-content{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border-style: solid;
+    border-color: #b0c364;
+    padding: 10px;
+    width: 77%;
+    height: 67%;
+}
+
+div.container-content span.title h1{
+    color: #b0c364;
+    font-size: 10px;
+    margin-top: 30px;
+}
+
+div.container-content span.category h2{
+    font-size: 25px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+div.container-content span.date{
+    color: #7a7a7a;
+}
+
+div.container-content span.date time{
+    font-size: 10px;
+}
+
+div.container-content span.date h3{
+    font-size: 10px;
+}
+
+/* Bloque Healty */
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,600,700&display=swap');
 div.all {
     display: flex;
-    width: 70%;
+    width: 78%;
     justify-content: space-between;
     margin: 0 auto;
+    margin-top: 20px;
 }
 
 div.image {
@@ -49,18 +153,18 @@ div.image {
     align-items: center;
     justify-content: center;
     float: left;
-    width: 33%;
-    min-width: 170px;
-    height: 250px;
+    max-width: 33%;
+    max-height: 50%;
     box-sizing: border-box;
     padding: 15px;
-    position: relative;
-    
+    position: relative;   
 }
+
 div.image img{
     width: 100%;
-    height: auto;
+    height: 100%;
 }
+
 div.image-card {
     display: flex;
     justify-content: center;
@@ -78,14 +182,226 @@ div.image-card-title {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #b0c364;
-    font-size: 10px;
-    font-weight: 600;
+    border-color: #b0c364;
     border-style: solid;
     text-align: center;
 }
+
+div.image-card-title span.green{
+    color: #b0c364;
+    font-size: 10px;
+    font-weight: 600;
+}
+
 div.image-card-title span {
     color: black;
     font-size: 17px;
     font-weight: 600;
+}
+
+div.image-card-title a:link {
+    text-decoration: none;
+    color: #b0c364;
+}
+
+div.image-card-title a:visited {
+    color: #b0c364;
+}
+
+/*Principales recetas img cruzadas*/
+
+.horizontal-1{
+    display: flex; /*que yo voy a que modificar mi contenedor a mi gusto.*/
+    width: 80%; 
+    max-width: 1024px;
+    margin: 0 auto; /* Centrar los divs */
+    margin-top: 2%; /*margen de arribita */
+    padding: 1%; /* La separación que hay entre la imagen el div */ 
+    
+}
+.horizontal-1-img{
+    width: 49%; /*ancho*/
+    height: auto;/* que se ajuste la altura de lo que vaya haber a dentro*/
+    margin-right: 1%;
+    margin-left: 1%;
+    float: left;
+    padding-top: 2%;
+    justify-content: center; /* para poder acomodar la imagen en este caso centrada y para que no se vaya hasta la esquina superior izq*/
+}
+.horizontal-1-img img{
+    height: 100%; /*la altura que va a tener la imagen que tan estirada o comprimida va a estar*/
+    width: 100%; /*ponemos el 100% porque abarcaría todo el 40% de mi width en el contenedor*/
+}
+.summary h4{
+    color: #b0c364;
+}
+
+.summary{
+    width: 51%;
+    height: auto;
+    text-align: center; /* Se centró lo que se encuentra adentro del contenedor */  
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 8%;
+    padding-top: 8%;
+}
+
+.summary h2{
+    font-weight: 800;
+}
+
+time{
+    font-size: smaller;
+    color: #7a7a7a;
+}
+
+p{
+    font-size: small;
+    color: #7a7a7a;
+    line-height : 25px;
+}
+
+button{
+    background-color: #b0c364;
+    color: white;
+    text-decoration: none; 
+    border: none;
+    padding: 3% 6%;
+}
+
+/*2da card */
+.horizontal-2{
+    display: flex; /*que yo voy a que modificar mi contenedor a mi gusto.*/
+    width: 80%; 
+    max-width: 1024px;
+    margin: 0 auto; /* Centrar los divs */
+    margin-top: 0%; /*margen de arribita */
+    margin-bottom: 2%;
+    padding: 1%;
+
+    
+}
+.summary2{
+    width: 51%;
+    height: auto;
+    text-align: center; /* Se centró lo que se encuentra adentro del contenedor */  
+    padding-right: 2%;
+    padding-left: 2%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+.horizontal-2-img{
+    width: 49%;
+    height: auto;
+    margin-right: 1%;
+    margin-left: 1%;
+    padding-top: 2%;
+    float: left;
+    justify-content: center;
+}
+.horizontal-2-img img{
+    height: 100%;
+    width: 100%;
+}
+.summary2 h4{
+    color: #b0c364;
+}
+.summary2 h2{
+    font-weight: 800;
+}
+
+/* 3 cards left 5 cards right */
+
+/* 3 cards left */
+section#main-8Cards{
+    margin-left: 160px;
+}
+
+.right-1{
+    display: flex; /*que yo voy a que modificar mi contenedor a mi gusto.*/
+    width: 60%; 
+    max-width: 1024px;
+    height: 50vh;
+    margin: 0 auto; /* Centrar los divs */
+    margin-top: 2%; /*margen de arribita */
+    padding: 1%; /* La separación que hay entre la imagen el div */   
+    float: left;
+}
+.right-1-img{
+    width: 30%; /*ancho*/
+    height: auto;/* que se ajuste la altura de lo que vaya haber a dentro*/
+    margin-right: 1%;
+    margin-left: 1%;
+    float: left;
+    padding-top: 2%;
+}
+.right-1-img img{
+    height: 100%; /*la altura que va a tener la imagen que tan estirada o comprimida va a estar*/
+    width: 100%; /*ponemos el 100% porque abarcaría todo el 40% de mi width en el contenedor*/
+}
+.content h4{
+    color: #b0c364;
+    padding-bottom: 15px;
+}
+
+.content{
+    width: 51%;
+    height: auto;
+    text-align: start; /* Se centró lo que se encuentra adentro del contenedor */ 
+    padding-left: 15px; 
+    line-height : 10px;
+}
+
+.content h2{
+    font-weight: 800;
+    line-height : 10px;
+}
+
+time{
+    font-size: smaller;
+    color: #7a7a7a;   
+}
+
+p{
+    padding-top: 15px;
+    font-size: small;
+    color: #7a7a7a;
+    line-height : 25px;
+}
+
+
+/* 5 cards right */
+div.five-right {
+    display:flex;
+    width:35%;
+    height: auto;
+    box-sizing: border-box; 
+}
+
+div.right-card-one-img {
+    display: flex;
+    float: left;
+    padding: 10px;
+    width: 25%;
+    height: auto;
+    box-sizing: border-box;
+   
+}
+div.right-card-one-img img {
+    width: 100%;
+    height: auto;
+}
+div.right-card-one-content {
+    width: 75%;
+    box-sizing: border-box;
+    padding-top: 5px;
+}
+div.right-card-one-content p {
+    color: #7a7a7a;
+    font-size: x-small;
+    line-height : 13px;
+}
+div.right-card-one-content p span {
+    color: black;
+    font-size: medium;
 }
