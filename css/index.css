@@ -317,7 +317,7 @@ section#main-8Cards{
     margin-left: 160px;
 }
 
-.right-1{
+.left-1{
     display: flex; /*que yo voy a que modificar mi contenedor a mi gusto.*/
     width: 60%; 
     max-width: 1024px;
@@ -327,7 +327,7 @@ section#main-8Cards{
     padding: 1%; /* La separación que hay entre la imagen el div */   
     float: left;
 }
-.right-1-img{
+.left-1-img{
     width: 30%; /*ancho*/
     height: auto;/* que se ajuste la altura de lo que vaya haber a dentro*/
     margin-right: 1%;
@@ -335,7 +335,7 @@ section#main-8Cards{
     float: left;
     padding-top: 2%;
 }
-.right-1-img img{
+.left-1-img img{
     height: 100%; /*la altura que va a tener la imagen que tan estirada o comprimida va a estar*/
     width: 100%; /*ponemos el 100% porque abarcaría todo el 40% de mi width en el contenedor*/
 }
