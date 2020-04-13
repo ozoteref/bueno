@@ -62,14 +62,19 @@ header{
     position: relative;
 }
 
+.imag-background{
+    filter: grayscale(50%);
+}
+
 img{
     width: 100%;
     height: auto;
+    
 }
 
 .slick-prev{
     position: absolute;
-    left: 0px;
+    left: 9px;
     top:45%;
     color: #ffffff;
     background-color: #b0c364;
@@ -77,6 +82,7 @@ img{
     width: 4.5em;
     height: 3em;
     text-align: center;
+    z-index: 1;
 }
 
 .slick-next{
@@ -94,36 +100,40 @@ img{
 /* Card del carrusel*/
 
 .slider-content{
-    position: absolute;
-    top: 30px;
-    left: 60px;
     background-color: #ffffff;
     width: 70%;
-    height: 80%;
-    text-align: center;
+    height: 70%;
+    padding: 10px;
+    box-sizing: border-box; 
+    position: absolute;
+    top: 45px;
+    left: 55px;
 }
 
 .container-content{
-    position: absolute;
-    top: 20px;
-    left: 20px;
     border-style: solid;
     border-color: #b0c364;
-    padding: 10px;
-    width: 77%;
-    height: 67%;
+    padding: 5px;
+    width: 89%;
+    height: 85%;
+    box-sizing: border-box;
+    position: absolute;
+    top: 15px;
+    left: 15px;
 }
 
 div.container-content span.title h1{
     color: #b0c364;
     font-size: 10px;
     margin-top: 30px;
+    text-align: center;
 }
 
 div.container-content span.category h2{
     font-size: 25px;
     margin: 10px;
     margin-bottom: 20px;
+    text-align: center;
 }
 
 div.container-content span.date{
@@ -132,11 +142,11 @@ div.container-content span.date{
 
 div.container-content span.date time{
     font-size: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
-div.container-content span.date h3{
-    font-size: 10px;
-}
 
 /* Bloque Healty */
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,600,700&display=swap');
