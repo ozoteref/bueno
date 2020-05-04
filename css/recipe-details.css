@@ -220,3 +220,14 @@ div.card-autography-descripcion p span {
   color: black;
   font-size: small;
 }
+div.footer-category-page {
+  width: 80%;
+  height: auto;
+  margin-left: 11%;
+  text-align: left;
+  font-size: 65%;
+  color: #7a7a7a;
+  font-family: inherit;
+  font-weight: 400;
+  margin-bottom: 4%;
+}
