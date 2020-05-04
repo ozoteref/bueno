@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap");
+/* html */
+html {
+  padding: 0;
+  margin: 0;
+  width: auto;
+  min-width: 1024px;
+  height: auto;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: #7a7a7a;
+}
+
+/*header-logo*/
+header {
+  padding: 15px;
+}
+.cont-logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 2.7%;
+}
+div.cont-logo img {
+  width: 100%;
+  height: 100%;
+  justify-items: center;
+}
+
+/* nav-bar*/
+.nav {
+  list-style-type: none;
+  margin-left: 6%;
+}
+.nav li {
+  display: inline-block;
+  padding: 8px;
+}
+.nav li a {
+  color: black;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  color: #b0c364;
+}
+
+/*Comienzan card gral*/
+section#eleven {
+  width: 80%;
+  max-width: 1200px;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+/*Primeras 6 cards*/
+div.six-cards {
+  width: 70%;
+  float: left;
+}
+div.st-card {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-top: 2%;
+  padding: 1%;
+}
+div.st-card div.cont-image {
+  width: 35%;
+  height: 60%;
+  margin-right: 1%;
+  margin-left: 1%;
+  float: left;
+  padding-top: 2%;
+  justify-content: center;
+}
+div.st-card div.cont-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /*sirve para poner la imagen bonita, que no se pixelee*/
+}
+div.sumary {
+  width: 55%;
+  height: auto;
+  margin-right: 1%;
+  margin-left: 2.5%;
+  float: right;
+  justify-content: left;
+}
+div.sumary h4 {
+  color: #b0c346;
+  font-size: small;
+  font-weight: 600;
+  margin-top: 4%;
+  margin-bottom: 3%;
+}
+div.sumary h2 {
+  color: black;
+  font-size: larger;
+  margin-bottom: 3%;
+  margin-top: 2%;
+}
+div.sumary time {
+  font-size: 65%;
+  font-weight: 600;
+}
+div.sumary p {
+  text-align: left;
+  width: 100%;
+  line-height: 155%;
+  font-weight: 400;
+  font-size: smaller;
+  margin-top: 6.5%;
+}
+/* 5 Cards chiquitas */
+div.all-five-cards {
+  width: 30%;
+  float: right;
+  margin-top: 3%;
+}
+div.first-rigth-card {
+  width: 100%;
+  height: auto;
+}
+div.right-card-one-img {
+  width: 40%;
+  height: 40%;
+  margin-right: 1%;
+  margin-left: 1%;
+  float: left;
+  padding-top: 2%;
+  justify-content: center;
+}
+div.right-card-one-img img {
+  width: 95%;
+  height: 100%;
+  margin-top: 8.3%;
+  /* object-fit: cover; */
+}
+div.sumary-small {
+  width: 52%;
+  height: auto;
+  margin-right: 1%;
+  margin-left: 2.5%;
+  float: right;
+  justify-content: left;
+}
+div.sumary-small p {
+  text-align: left;
+  width: 100%;
+  line-height: 155%;
+  font-weight: 400;
+  font-size: 85%;
+  margin-top: 6.5%;
+}
+div.sumary-small p.right-card-one-content-title span.stspan {
+  color: #000000;
+  font-size: 101%;
+  font-weight: 800;
+}
+div.sumary-small p.right-card-one-content-title time {
+  font-size: 65%;
+  font-weight: 500;
+}
+div.sumary-small p.right-card-one-content-title span.ndspan {
+  color: #7a7a7a;
+  font-size: 80%;
+  font-weight: 800;
+}
+
+.clear-float {
+  clear: both;
+}
+/*buttons*/
+div.boxofbuttons {
+  width: 95%;
+  margin-top: 3.5%;
+  margin-bottom: 8.5%;
+  padding: 3%;
+  float: right;
+  justify-content: left;
+  text-decoration: none;
+}
+div.boxofbuttons a button.stylebutton {
+  background-color: #e6e6eeaf;
+  color: #7a7a7a;
+  border: none;
+  padding: 1% 1%;
+  font-family: inherit;
+  text-decoration: none;
+  font-size: 65%;
+  font-weight: 800;
+}
+
+div.boxofbuttons a button.stylebuttongreen {
+  background-color: #b0c364;
+  color: white;
+  border: none;
+  padding: 1% 1%;
+  font-family: inherit;
+  text-decoration: none;
+  font-size: 65%;
+  font-weight: 800;
+}
+div.boxofbuttons a {
+  text-decoration: none;
+}
+/*Footer*/
+div.footer-category-page {
+  width: 80%;
+  height: auto;
+  margin-left: 11%;
+  text-align: left;
+  font-size: 65%;
+  color: #7a7a7a;
+  font-family: inherit;
+  font-weight: 400;
+  margin-bottom: 4%;
+}
