@@ -197,18 +197,13 @@ div.boxofbuttons a button.stylebutton {
   font-weight: 800;
 }
 
-div.boxofbuttons a button.stylebuttongreen {
-  background-color: #b0c364;
-  color: white;
-  border: none;
-  padding: 1% 1%;
-  font-family: inherit;
-  text-decoration: none;
-  font-size: 65%;
-  font-weight: 800;
-}
 div.boxofbuttons a {
   text-decoration: none;
+}
+
+div.boxofbuttons a button:hover {
+  background-color: #b0c364;
+  color: white;
 }
 /*Footer*/
 div.footer-category-page {
