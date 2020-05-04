@@ -79,7 +79,7 @@ section#main-slider{
 
 .slick-prev {
   position: absolute;
-  left: 9px;
+  left: 10.5px;
   top: 45%;
   color: #ffffff;
   background-color: #b0c364;
@@ -92,7 +92,7 @@ section#main-slider{
 
 .slick-next {
   position: absolute;
-  right: 9px;
+  right: 8.5px;
   top: 45%;
   color: #ffffff;
   background-color: #b0c364;
