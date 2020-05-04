@@ -12,6 +12,7 @@ html {
 body{
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
+    position: relative;
 }
 
 /*header-logo*/
@@ -45,31 +46,31 @@ header{
 
 /* carrusel */
 #container-slayder{
- max-width: 90%;
+ max-width: 85%;
 }
 
 .center{
     position: relative;
     left: 50%;
-    top: 110px;
+    top: 190px;
     transform: translate(-50%,-50%);
 }
 
 .imgadap{
     width: 500px;
-    height: 500px;
+    height: auto;
     padding: 10px;
     position: relative;
 }
 
 .imag-background{
-    filter: grayscale(50%);
+    filter: brightness(0.50);
 }
 
-img{
+.slick-slide img {
+    display: block;
     width: 100%;
-    height: auto;
-    
+    height: 65vh;
 }
 
 .slick-prev{
@@ -106,34 +107,36 @@ img{
     padding: 10px;
     box-sizing: border-box; 
     position: absolute;
-    top: 45px;
+    top: 60px;
     left: 55px;
+    display: flex;
 }
 
 .container-content{
     border-style: solid;
     border-color: #b0c364;
-    padding: 5px;
     width: 89%;
-    height: 85%;
+    height: 88%;
     box-sizing: border-box;
     position: absolute;
     top: 15px;
     left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 div.container-content span.title h1{
     color: #b0c364;
     font-size: 10px;
     margin-top: 30px;
-    text-align: center;
 }
 
 div.container-content span.category h2{
     font-size: 25px;
     margin: 10px;
     margin-bottom: 20px;
-    text-align: center;
 }
 
 div.container-content span.date{
@@ -142,9 +145,6 @@ div.container-content span.date{
 
 div.container-content span.date time{
     font-size: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
 }
 
 
@@ -414,3 +414,22 @@ div.right-card-one-content p span {
     color: black;
     font-size: medium;
 }
+
+footer{
+    position:fixed; 
+    bottom:0px;
+    width: 100%;
+    padding: 10px;
+} 
+
+div.footer-category-page {
+    width: 80%;
+    height: auto;
+    margin-left: 12.5%;
+    font-size: 65%;
+    color: #7a7a7a;
+    font-family: inherit;
+    font-weight: 400;
+  }
+
+

@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,500,600,700&display=swap');
+
+/* html */
+html {
+    padding: 0;
+    margin: 0;
+    width: auto;
+    min-width: 1024px;
+    height: auto;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+/*header-logo*/
+header{
+    padding: 15px;
+}
+.cont-logo {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+/* nav-bar*/
+.nav{
+    list-style-type: none;
+    margin-left: 40px;
+}
+.nav li{
+    display: inline-block;
+    padding: 8px;
+}
+.nav li a{
+    color: black;
+    text-decoration: none;
+}
+
+.nav li a:hover{
+    color: #b0c364;
+}
+
+/* Recipe details left */
+
+div.content-recipe-details {
+    display: flex;
+    float: left;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    justify-content: space-between;
+}
+div.card-recipe-details-left {
+    width: 40%;
+    height: auto;
+    margin-left: 90px;
+    box-sizing: border-box;
+}
+div.card-recipe-details-left-img a img {
+    width: 100%;
+    height: auto;
+}
+div.content-details span.category h2 {
+    font-weight: 600;
+}
+div.content-details span.title h1 {
+    font-size: 12px;
+    color: #b0c364;
+    padding-top: 25px;
+    font-weight: 600;
+}
+div.content-details span.date {
+    color: #7a7a7a;
+    font-size: 12px;
+    font-weight: 600;
+}
+div.preparation-recipe-details p {
+    color: #7a7a7a;
+    font-weight: 500;
+}
+div.preparation-recipe-details h3 {
+    font-weight: 600;
+}
+/* recipe details center */
+div.card-recipe-details-center {
+    width: 35%;
+    padding: 0px 25px;
+    box-sizing: border-box;
+}
+div.card-recipe-details-center-green{
+    background-color:#b0c364;
+    padding: 30px;
+    
+}
+
+div.card-recipe-details-center-green-title p{
+    margin: 0;
+    color: #ffffff;
+    font-weight: 600;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+div.card-green-info p {
+    color: #ffffff;
+    font-weight: 600;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 60px;
+    margin: 0px;
+}
+div.card-recipe-details-center-green-info {
+    display: flex;
+    position: relative;
+    border-bottom: #9cad59 solid 1px;
+    
+}
+div.card-recipe-details-center-green-info-two {
+    display: flex;
+    position: relative;
+    border-bottom: #9cad59 solid 1px;
+    
+}
+div.card-recipe-details-center-green-info-three {
+    display: flex;
+    position: relative;
+    padding-bottom: 30px;
+}
+div.card-green-img img{
+    display: flex;
+    position: absolute;
+    left: 15px;
+    top: 30%;
+}
+div.card-green-img-two img{
+    display: flex;
+    position: absolute;
+    left: 15px;
+    top: 20%;
+}
+div.card-green-img-three img{
+    display: flex;
+    position: absolute;
+    left: 15px;
+    top: 15%;
+}
+/* recipe details right Alfred empieza aquí :); gracias amigo /u/ */
+div.card-recipe-details-right {
+    width: 30%;
+    box-sizing: border-box;
+}
+
+div.card-autography{
+    background: url(../img/fondoa.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 70%;
+    height: 30%;
+}
+
+div.card-autography-image{
+    width: 75%;
+    height: auto;
+     /* object-fit: cover; */
+}
+
+div.card-autography-image img{
+    max-width: 100%;
+    height: 30vh;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 30px;
+    
+}
+
+div.card-autography-descripcion{
+    margin-top: 30px;
+}
+
+div.card-autography-descripcion p{
+    font-size: 15px;
+    font-weight: normal;
+    color: #7a7a7a;
+    text-align: center;
+    line-height : 30px; 
+    padding: 10px;   
+}
+
+div.card-autography-descripcion p span{
+    color: #000000;  
+}
+
+/* 5 cards right */
+.card-second{
+    width: 70%;
+    float: left;
+    margin-top: 20px;
+}
+
+.card-second .card-second-imagen img{
+    width: 50%;
+    height: auto;
+    float: left;
+    padding: 0px 20px 0px 0px;
+    box-sizing: border-box;
+}
+
+.card-second .card-second-content{
+    width: 50%;
+    color: #000;
+    float: right;
+}
+
+.card-second .card-second-content p{
+    color: #7a7a7a;
+    font-size: 7.7px;
+    line-height: 10px;
+    margin: 0px;
+}
+
+.card-second .card-second-content span{
+    color: black;
+    font-size: small;
+}
+
+footer{
+    position: relative; 
+    bottom:0px;
+    width: 100%;
+    padding: 10px;
+} 
+
+div.footer-category-page {
+    width: 80%;
+    height: auto;
+    margin-left: 6%;
+    font-size: 65%;
+    color: #7a7a7a;
+    font-family: inherit;
+    font-weight: 400;
+  }
+
+
