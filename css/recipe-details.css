@@ -144,6 +144,39 @@ div.card-green-img-three img {
   left: 15px;
   top: 15%;
 }
+
+/* Checklist */
+
+div.card-recipe-details-center-checklist {
+  box-sizing: border-box;
+  padding-top: 30px;
+}
+
+div.card-recipe-details-center-checklist-color {
+  background-color: rgb(219, 227, 236);
+  box-sizing: border-box;
+  padding: 35px;
+}
+
+div.card-recipe-details-center-checklist-ingredients-title {
+  padding-bottom: 35px;
+}
+
+div.card-recipe-details-center-checklist-ingredients{
+  color: #7a7a7a;
+  font-weight: 500;
+  box-sizing: border-box;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: rgb(173, 193, 212) solid 1px;
+}
+
+input[type="checkbox"] {
+  width: 1.3em;
+  height: 1.3em;
+  
+  }
+
 /* recipe details right Alfred empieza aquí :); gracias amigo /u/ */
 div.card-recipe-details-right {
   width: 30%;
