@@ -1,0 +1,50 @@
+document.addEventListener('DOMContentLoaded', function(){
+
+    var img1 = document.getElementById('api-img1');
+    var img2 = document.getElementById('api-img2');
+    var img3 = document.getElementById('api-img3');
+    var img4 = document.getElementById('api-img4');
+    var img5 = document.getElementById('api-img5');
+    var img6 = document.getElementById('api-img6');
+    var title1 = document.getElementById('api-title1');
+    var title2 = document.getElementById('api-title2');
+    var category1 = document.getElementById('api-category1');
+    var category2 = document.getElementById('api-category2');
+    var date1 = document.getElementById('api-date1');
+    var date2 = document.getElementById('api-date2'); 
+    
+    fetch('http://api.imagendigital.com/v2/cocinadelirante/node.json/339fd1e0444ddbbd4d4528d8df161108?taxonomy.tid=13&type=receta&fields=title,image.url,author.name,taxonomy.name,created&limit=6')
+    .then(function(respuesta) {
+        return respuesta.json();
+    })
+    .then(function(miJeison) {
+
+        let dateCarrusel = miJeison.data[0].created;
+        building = new Date(dateCarrusel*1000);
+        buildingString = building.toLocaleDateString('es-MX');
+
+        let dateCarrusel1 = miJeison.data[0].created;
+        building1 = new Date(dateCarrusel1*1000);
+        buildingString1 = building1.toLocaleDateString('es-MX');
+
+         img1.innerHTML = `<img src='${miJeison.data[0].image.url}' alt='' />`;
+         img2.innerHTML = `<img src='${miJeison.data[1].image.url}' alt='' />`;
+         img3.innerHTML = `<img src='${miJeison.data[2].image.url}' alt='' />`;
+         img4.innerHTML = `<img src='${miJeison.data[3].image.url}' alt='' />`;
+         img5.innerHTML = `<img src='${miJeison.data[4].image.url}' alt='' />`;
+         img6.innerHTML = `<img src='${miJeison.data[5].image.url}' alt='' />`;
+         title1.innerHTML = `<h1>${miJeison.data[0].taxonomy.name}</h1>`;
+         title2.innerHTML = `<h1>${miJeison.data[1].taxonomy.name}</h1>`;
+         category1.innerHTML = `<h2>${miJeison.data[1].title}</h2>`;
+         category2.innerHTML = `<h2>${miJeison.data[4].title}</h2>`;
+         date1.innerHTML = `<time datetime="JULY-11-2018 20:00">${buildingString} / BY ${miJeison.data[1].author.name}</time>`;
+         date2.innerHTML = `<time datetime="JULY-11-2018 20:00">${buildingString1} / BY ${miJeison.data[4].author.name}</time>`;
+
+     })  
+ });
+
+//  const structureCarrusel = {year:'numeric', mounth:'short', day:'numeric'};
+
+//  let dateCarrusel = miJeison.data[0].created;
+//  building = new Date(dateCarrusel*1000);
+//  buildingString = building.toLocaleDateString('es-MX',structureCarrusel);
