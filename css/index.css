@@ -32,7 +32,7 @@ header {
 }
 .nav li {
   display: inline-block;
-  padding: 8px;
+  padding: 18px;
 }
 .nav li a {
   color: black;
@@ -157,7 +157,7 @@ div.container-content span.date time {
 div.all {
   display: flex;
   width: 78%;
-  justify-content: space-around;
+  justify-content: center;
   margin: 0 auto;
   margin-top: 20px;
 }
@@ -170,7 +170,10 @@ div.imagen {
   max-width: 33%;
   max-height: 50%;
   box-sizing: border-box;
-  padding: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
   position: relative;
 }
 
@@ -459,7 +462,7 @@ div#right-card-img {
   display: flex;
   float: left;
   padding: 10px;
-  width: 40%;
+  width: 30%;
   height: auto;
   box-sizing: border-box;
 }
@@ -471,7 +474,7 @@ div#right-card-img-2 {
   display: flex;
   float: left;
   padding: 10px;
-  width: 40%;
+  width: 30%;
   height: auto;
   box-sizing: border-box;
 }
@@ -484,7 +487,7 @@ div#right-card-img-3 {
   display: flex;
   float: left;
   padding: 10px;
-  width: 40%;
+  width: 30%;
   height: auto;
   box-sizing: border-box;
 }
@@ -497,7 +500,7 @@ div#right-card-img-4 {
   display: flex;
   float: left;
   padding: 10px;
-  width: 40%;
+  width: 30%;
   height: auto;
   box-sizing: border-box;
 }
@@ -509,7 +512,7 @@ div#right-card-img-5 {
   display: flex;
   float: left;
   padding: 10px;
-  width: 40%;
+  width: 30%;
   height: auto;
   box-sizing: border-box;
 }
@@ -527,22 +530,32 @@ div.right-card-one-content {
 div#card-right-content-title {
   color: #000000;
   font-size: small;
+  padding-top: 10px;
+  box-sizing: border-box;
 }
 div#card-right-content-title-2 {
   color: #000000;
   font-size: small;
+  padding-top: 10px;
+  box-sizing: border-box;
 }
 div#card-right-content-title-3 {
   color: #000000;
   font-size: small;
+  padding-top: 10px;
+  box-sizing: border-box;
 }
 div#card-right-content-title-4 {
   color: #000000;
   font-size: small;
+  padding-top: 10px;
+  box-sizing: border-box;
 }
 div#card-right-content-title-5 {
   color: #000000;
   font-size: small;
+  padding-top: 10px;
+  box-sizing: border-box;
 }
 time {
   font-size: x-small;

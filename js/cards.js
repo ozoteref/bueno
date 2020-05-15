@@ -125,7 +125,7 @@ fetch(url4)
         document.getElementById("autor-right").innerHTML = api.data[3].author.name;
 
         var autor = document.getElementById("card-right-content-title").innerHTML;
-        document.getElementById("card-right-content-title").innerHTML = api.data[3].taxonomy.name;
+        document.getElementById("card-right-content-title").innerHTML = api.data[3].title;
 
 
     })
@@ -154,7 +154,7 @@ fetch(url5)
         document.getElementById("autor-right-2").innerHTML = api.data[4].author.name;
 
         var autor = document.getElementById("card-right-content-title-2").innerHTML;
-        document.getElementById("card-right-content-title-2").innerHTML = api.data[4].taxonomy.name;
+        document.getElementById("card-right-content-title-2").innerHTML = api.data[4].title;
 
 
     })
@@ -183,7 +183,7 @@ fetch(url6)
         document.getElementById("autor-right-3").innerHTML = api.data[5].author.name;
 
         var autor = document.getElementById("card-right-content-title-3").innerHTML;
-        document.getElementById("card-right-content-title-3").innerHTML = api.data[5].taxonomy.name;
+        document.getElementById("card-right-content-title-3").innerHTML = api.data[5].title;
 
 
     })
@@ -212,7 +212,7 @@ fetch(url7)
         document.getElementById("autor-right-4").innerHTML = api.data[6].author.name;
 
         var autor = document.getElementById("card-right-content-title-4").innerHTML;
-        document.getElementById("card-right-content-title-4").innerHTML = api.data[6].taxonomy.name;
+        document.getElementById("card-right-content-title-4").innerHTML = api.data[6].title;
 
 
     })
@@ -241,7 +241,7 @@ fetch(url8)
         document.getElementById("autor-right-5").innerHTML = api.data[7].author.name;
 
         var autor = document.getElementById("card-right-content-title-5").innerHTML;
-        document.getElementById("card-right-content-title-5").innerHTML = api.data[7].taxonomy.name;
+        document.getElementById("card-right-content-title-5").innerHTML = api.data[7].title;
 
 
     })
