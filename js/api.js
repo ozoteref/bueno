@@ -11,39 +11,39 @@ fetch(url)
 
         //Meter valores en div id imagen
         var img = document.getElementById("image").innerHTML;
-        document.getElementById("image").innerHTML = '<img src="' + api.data[0].image.styles.square_circle + '" alt="">';
+        document.getElementById("image").innerHTML = '<img src="' + api.data[3].image.styles.square_circle + '" alt="">';
 
         //Meter valores en div id autor
         var autor = document.getElementById("green-text").innerHTML;
-        document.getElementById("green-text").innerHTML = api.data[0].taxonomy.name;
+        document.getElementById("green-text").innerHTML = api.data[3].taxonomy.name;
 
         //Meter valores en div imagen
         var titulo = document.getElementById("black-text").innerHTML;
-        document.getElementById("black-text").innerHTML = api.data[0].title;
+        document.getElementById("black-text").innerHTML = api.data[3].title;
 
         //Meter valores en div id imagen
         var img = document.getElementById("image-1").innerHTML;
-        document.getElementById("image-1").innerHTML = '<img src="' + api.data[1].image.styles.square_circle + '" alt="">';
+        document.getElementById("image-1").innerHTML = '<img src="' + api.data[4].image.styles.square_circle + '" alt="">';
 
         //Meter valores en div id autor
         var autor = document.getElementById("green-text-1").innerHTML;
-        document.getElementById("green-text-1").innerHTML = api.data[1].taxonomy.name;
+        document.getElementById("green-text-1").innerHTML = api.data[4].taxonomy.name;
 
         //Meter valores en div imagen
         var titulo = document.getElementById("black-text-1").innerHTML;
-        document.getElementById("black-text-1").innerHTML = api.data[1].title;
+        document.getElementById("black-text-1").innerHTML = api.data[4].title;
 
         //Meter valores en div id imagen
         var img = document.getElementById("image-2").innerHTML;
-        document.getElementById("image-2").innerHTML = '<img src="' + api.data[2].image.styles.square_circle + '" alt="">';
+        document.getElementById("image-2").innerHTML = '<img src="' + api.data[5].image.styles.square_circle + '" alt="">';
 
         //Meter valores en div id autor
         var autor = document.getElementById("green-text-2").innerHTML;
-        document.getElementById("green-text-2").innerHTML = api.data[2].taxonomy.name;
+        document.getElementById("green-text-2").innerHTML = api.data[5].taxonomy.name;
 
         //Meter valores en div imagen
         var titulo = document.getElementById("black-text-2").innerHTML;
-        document.getElementById("black-text-2").innerHTML = api.data[2].title;
+        document.getElementById("black-text-2").innerHTML = api.data[5].title;
 
 
     })
