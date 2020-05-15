@@ -365,52 +365,88 @@ section#main-8Cards {
   display: flex; /*que yo voy a que modificar mi contenedor a mi gusto.*/
   width: 60%;
   max-width: 1024px;
-  height: 50vh;
+  height: auto;
   margin: 0 auto; /* Centrar los divs */
   padding: 1%; /* La separación que hay entre la imagen el div */
   float: left;
 }
-.left-1-img {
-  width: 30%; /*ancho*/
+#card-left-img {
+  width: 40%; /*ancho*/
   height: auto; /* que se ajuste la altura de lo que vaya haber a dentro*/
   margin-right: 1%;
   margin-left: 1%;
   float: left;
   padding-top: 2%;
 }
-.left-1-img img {
+#card-left-img img {
   height: 100%; /*la altura que va a tener la imagen que tan estirada o comprimida va a estar*/
   width: 100%; /*ponemos el 100% porque abarcaría todo el 40% de mi width en el contenedor*/
 }
-.content h4 {
+#card-left-img-2 {
+  width: 40%; /*ancho*/
+  height: auto; /* que se ajuste la altura de lo que vaya haber a dentro*/
+  margin-right: 1%;
+  margin-left: 1%;
+  float: left;
+  padding-top: 2%;
+}
+#card-left-img-2 img{
+  height: 100%; 
+  width: 100%;
+}
+#card-left-img-3 {
+  width: 40%; /*ancho*/
+  height: auto; /* que se ajuste la altura de lo que vaya haber a dentro*/
+  margin-right: 1%;
+  margin-left: 1%;
+  float: left;
+  padding-top: 2%;
+}
+#card-left-img-3 img{
+  height: 100%; 
+  width: 100%;
+}
+
+div#card-left-content-name{
   color: #b0c364;
-  padding-bottom: 15px;
+  font-size: large;
 }
 
-.content {
-  width: 51%;
-  height: auto;
-  text-align: start; /* Se centró lo que se encuentra adentro del contenedor */
-  padding-left: 15px;
-  line-height: 10px;
+div#card-left-content-title{
+  color: #000000;
+  font-size: xx-large;
+}
+div#card-left-content-name-2{
+  color: #b0c364;
+  font-size: large;
 }
 
-.content h2 {
-  font-weight: 800;
-  line-height: 10px;
+div#card-left-content-title-2{
+  color: #000000;
+  font-size: xx-large;
+}
+div#card-left-content-name-3{
+  color: #b0c364;
+  font-size: large;
 }
 
-.content time {
+div#card-left-content-title-3{
+  color: #000000;
+  font-size: xx-large;
+}
+time{
   font-size: smaller;
   color: #7a7a7a;
 }
 
-.content p {
-  padding-top: 15px;
-  font-size: small;
-  color: #7a7a7a;
-  line-height: 25px;
+.content {
+  width: 60%;
+  height: auto;
+  text-align: start; /* Se centró lo que se encuentra adentro del contenedor */
+  padding-left: 15px;
+  padding-top: 20px;
 }
+
 
 /* 5 cards right */
 div.five-right {
@@ -420,30 +456,98 @@ div.five-right {
   box-sizing: border-box;
 }
 
-div.right-card-one-img {
+div#right-card-img {
   display: flex;
   float: left;
   padding: 10px;
-  width: 25%;
+  width: 40%;
   height: auto;
   box-sizing: border-box;
 }
-div.right-card-one-img img {
+div#right-card-img img {
   width: 100%;
   height: auto;
 }
-div.right-card-one-content {
-  width: 75%;
+div#right-card-img-2 {
+  display: flex;
+  float: left;
+  padding: 10px;
+  width: 40%;
+  height: auto;
   box-sizing: border-box;
 }
-div.right-card-one-content p {
-  color: #7a7a7a;
-  font-size: x-small;
-  line-height: 13px;
+div#right-card-img-2 img {
+  width: 100%;
+  height: auto;
 }
-div.right-card-one-content p span {
-  color: black;
-  font-size: medium;
+
+div#right-card-img-3 {
+  display: flex;
+  float: left;
+  padding: 10px;
+  width: 40%;
+  height: auto;
+  box-sizing: border-box;
+}
+div#right-card-img-3 img {
+  width: 100%;
+  height: auto;
+}
+
+div#right-card-img-4 {
+  display: flex;
+  float: left;
+  padding: 10px;
+  width: 40%;
+  height: auto;
+  box-sizing: border-box;
+}
+div#right-card-img-4 img {
+  width: 100%;
+  height: auto;
+}
+div#right-card-img-5 {
+  display: flex;
+  float: left;
+  padding: 10px;
+  width: 40%;
+  height: auto;
+  box-sizing: border-box;
+}
+div#right-card-img-5 img {
+  width: 100%;
+  height: auto;
+}
+
+div.right-card-one-content {
+  width: 100%;
+  padding-top: 15px;
+  box-sizing: border-box;
+}
+
+div#card-right-content-title{
+  color: #000000;
+  font-size: small;
+}
+div#card-right-content-title-2{
+  color: #000000;
+  font-size: small;
+}
+div#card-right-content-title-3{
+  color: #000000;
+  font-size: small;
+}
+div#card-right-content-title-4{
+  color: #000000;
+  font-size: small;
+}
+div#card-right-content-title-5{
+  color: #000000;
+  font-size: small;
+}
+time{
+  font-size: x-small;
+  color: #7a7a7a;
 }
 div.footer-category-page {
   width: 80%;
