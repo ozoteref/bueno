@@ -138,9 +138,10 @@ div.container-content span.title h1 {
 }
 
 div.container-content span.category h2 {
-  font-size: 25px;
+  font-size: 20px;
   margin: 10px;
   margin-bottom: 20px;
+  text-align: center;
 }
 
 div.container-content span.date {
