@@ -16,7 +16,7 @@ body {
 
 /*header-logo*/
 header {
-  padding: 15px;
+  padding: 2%;
 }
 .cont-logo {
   display: flex;
@@ -390,8 +390,8 @@ section#main-8Cards {
   float: left;
   padding-top: 2%;
 }
-#card-left-img-2 img{
-  height: 100%; 
+#card-left-img-2 img {
+  height: 100%;
   width: 100%;
 }
 #card-left-img-3 {
@@ -402,39 +402,39 @@ section#main-8Cards {
   float: left;
   padding-top: 2%;
 }
-#card-left-img-3 img{
-  height: 100%; 
+#card-left-img-3 img {
+  height: 100%;
   width: 100%;
 }
 
-div#card-left-content-name{
+div#card-left-content-name {
   color: #b0c364;
   font-size: large;
 }
 
-div#card-left-content-title{
+div#card-left-content-title {
   color: #000000;
   font-size: xx-large;
 }
-div#card-left-content-name-2{
+div#card-left-content-name-2 {
   color: #b0c364;
   font-size: large;
 }
 
-div#card-left-content-title-2{
+div#card-left-content-title-2 {
   color: #000000;
   font-size: xx-large;
 }
-div#card-left-content-name-3{
+div#card-left-content-name-3 {
   color: #b0c364;
   font-size: large;
 }
 
-div#card-left-content-title-3{
+div#card-left-content-title-3 {
   color: #000000;
   font-size: xx-large;
 }
-time{
+time {
   font-size: smaller;
   color: #7a7a7a;
 }
@@ -446,7 +446,6 @@ time{
   padding-left: 15px;
   padding-top: 20px;
 }
-
 
 /* 5 cards right */
 div.five-right {
@@ -525,27 +524,27 @@ div.right-card-one-content {
   box-sizing: border-box;
 }
 
-div#card-right-content-title{
+div#card-right-content-title {
   color: #000000;
   font-size: small;
 }
-div#card-right-content-title-2{
+div#card-right-content-title-2 {
   color: #000000;
   font-size: small;
 }
-div#card-right-content-title-3{
+div#card-right-content-title-3 {
   color: #000000;
   font-size: small;
 }
-div#card-right-content-title-4{
+div#card-right-content-title-4 {
   color: #000000;
   font-size: small;
 }
-div#card-right-content-title-5{
+div#card-right-content-title-5 {
   color: #000000;
   font-size: small;
 }
-time{
+time {
   font-size: x-small;
   color: #7a7a7a;
 }
