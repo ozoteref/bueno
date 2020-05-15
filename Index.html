@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/index.css" type="text/css" />
-    <script src="js/prueba.js"></script>
     <script type="text/javascript" src="js/api.js"></script>
+    <script src="js/big-cards.js"></script>
 
     <!-- enlaces para el carrucel -->
     <script
@@ -194,50 +194,29 @@
     <!--Section 3 - Principales recetas img cruzadas-->
     <section class="main-twocards">
       <div class="horizontal-1">
-        <div class="horizontal-1-img">
-          <img src="./img/foody.jfif" alt="" />
-        </div>
+        <div class="horizontal-1-img" id="imagen"></div>
         <div class="summary">
-          <h4>HEALTHY</h4>
-          <h2>Fried eggs with ham</h2>
-          <time datetime="2020-03-10 18:00"
-            >JULY 10,2020 / BY JULIA STILES</time
-          >
+          <h4 id="categoria"></h4>
+          <h2 id="titulo"></h2>
+          <datetime datetime="2020-03-10 18:00"></datetime>
+          <time><span id="date"></span> / <span id="autor"></span></time>
 
-          <p id="sumary">
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloribus
-            nisi modi corrupti, numquam neque recusandae fugit incidunt aperiam
-            molestias, ullam unde consequatur ex? Dolor, deserunt odio esse
-            cumque aliquam obcaecati sapiente! Veniam nemo architecto impedit
-            consectetur at dicta praesentium sit dolorum aliquam, quis culpa
-            eligendi numquam vitae magni deserunt odit.
-          </p>
-          <a href=""><button class="green">Read More</button></a>
+          <p id="parrafo"></p>
+          <a href=""><button class="green"></button></a>
         </div>
         <div class="clear-float"></div>
       </div>
 
       <div class="horizontal-2">
         <div class="summary2">
-          <h4>HEALTHY</h4>
-          <h2>Steak with boiled vegetables</h2>
-          <time datetime="2020-03-10 18:00"
-            >JULY 10,2020 / BY JULIA STILES</time
-          >
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur
-            maiores voluptate adipisci suscipit recusandae ipsa veniam totam
-            reiciendis rerum laborum, rem modi! Eveniet architecto adipisci
-            tempore assumenda natus. Necessitatibus voluptas eveniet maxime,
-            quis voluptate at accusamus sit facilis velit dolores dignissimos
-            eligendi doloribus animi consequuntur? Quas necessitatibus quam qui
-            in!
-          </p>
-          <a href=""><button class="green">Read More</button></a>
+          <h4 id="categoria2"></h4>
+          <h2 id="titulo2"></h2>
+          <datetime datetime="2020-03-10 18:00"></datetime>
+          <time><span id="date2"></span> / <span id="autor2"></span></time>
+          <p id="parrafo2"></p>
+          <a href=""><button class="green"></button></a>
         </div>
-        <div class="horizontal-2-img">
-          <img src="./img/chia.jfif" alt="" />
-        </div>
+        <div class="horizontal-2-img" id="imagen2"></div>
         <div class="clear-float"></div>
       </div>
     </section>
