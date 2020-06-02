@@ -1,218 +1,263 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/index.css" type="text/css" />
     <script type="text/javascript" src="js/api.js"></script>
+    <script type="text/javascript" src="js/cards.js"></script>
     <script src="js/big-cards.js"></script>
     
     <!-- enlaces para el carrucel -->
-    <script
-      type="text/javascript"
-      src="https://code.jquery.com/jquery-1.11.0.min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
-    ></script>
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
-    />
-    <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
-    ></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script type="text/javascript" src="./js/slider-style.js"></script>
     <script type="text/javascript" src="./js/apiCarrusel.js"></script>
     
     <title>Proyecto Recetas</title>
-  </head>
+</head>
 
-  <body>
+<body>
     <header>
-      <!-- imagen -->
-      <div class="cont-logo">
-        <a href="Index.html">
-          <img src="./img/logo.png" alt="logo" title="logo" />
-        </a>
-      </div>
-      <div class="clear-float"></div>
-      <div class="main-nav">
-        <nav>
-          <ul class="nav">
-            <li><a href="">Home</a></li>
-            <li><a href="">Life&Tips</a></li>
-            <li><a href="">En 1.2.3</a></li>
-            <li><a href="">Healthy</a></li>
-            <li><a href="">Postres Y Bebidas</a></li>
-            <li><a href="">Slow Food</a></li>
-          </ul>
-        </nav>
-      </div>
+        <!-- imagen -->
+        <div class="cont-logo">
+            <a href="Index.html">
+                <img src="./img/logo.png" alt="logo" title="logo" />
+            </a>
+        </div>
+        <div class="clear-float"></div>
+        <div class="main-nav">
+            <nav>
+                <ul class="nav">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Life&Tips</a></li>
+                    <li><a href="">En 1.2.3</a></li>
+                    <li><a href="">Healthy</a></li>
+                    <li><a href="">Postres Y Bebidas</a></li>
+                    <li><a href="">Slow Food</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
     <div class="clear-float"></div>
-    
+
     <!--Section 1 - Carrucel-->
     <section id="main-slider">
-      <div id="container-slayder" class="center">
-        <div class="slider-example">
-          <div class="imgadap">
-            <div class="imag-background">
-              <a href="">
-                <span id="api-img1"></span>
-              </a>
+        <div id="container-slayder" class="center">
+            <div class="slider-example">
+                <div class="imgadap">
+                    <div class="imag-background">
+                        <a href="">
+                            <span id="api-img1"></span>
+                        </a>
+                    </div>
+
+                    <div class="slider-content">
+                        <div class="container-content">
+                            <span class="title" id="api-title0">
+                            </span>
+
+                            <span class="category" id="api-category0">
+                            </span>
+
+                            <span class="date" id="api-date0">
+                            </span>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="imgadap">
+                    <div class="">
+                        <a href="">
+                            <span id="api-img2"></span>
+                        </a>
+                    </div>
+
+                    <div class="slider-content">
+                        <div class="container-content">
+                            <span class="title" id="api-title1">
+                            </span>
+
+                            <span class="category" id="api-category1">
+                            </span>
+
+                            <span class="date" id="api-date1">
+                            </span>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="imgadap">
+                    <div class="imag-background">
+                        <a href="">
+                            <span id="api-img3"></span>
+                        </a>
+                    </div>
+
+                    <div class="slider-content">
+                        <div class="container-content">
+                            <span class="title" id="api-title2">
+                            </span>
+
+                            <span class="category" id="api-category2">
+                            </span>
+
+                            <span class="date" id="api-date2">
+                            </span>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="imgadap">
+                    <div class="imag-background">
+                        <a href="">
+                            <span id="api-img4"></span>
+                        </a>
+                    </div>
+
+                    <div class="slider-content">
+                        <div class="container-content">
+                            <span class="title" id="api-title3">
+                            </span>
+
+                            <span class="category" id="api-category3">
+                            </span>
+
+                            <span class="date" id="api-date3">
+                            </span>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="imgadap">
+                    <div class="    ">
+                        <a href="">
+                            <span id="api-img5"></span>
+                        </a>
+                    </div>
+
+                    <div class="slider-content">
+                        <div class="container-content">
+                            <span class="title" id="api-title4">
+                            </span>
+
+                            <span class="category" id="api-category4">
+                            </span>
+
+                            <span class="date" id="api-date4">
+                            </span>
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="imgadap">
+                    <div class="imag-background">
+                        <a href="">
+                            <span id="api-img6"></span>
+                        </a>
+                    </div>
+
+                    <div class="slider-content">
+                        <div class="container-content">
+                            <span class="title" id="api-title5">
+                            </span>
+
+                            <span class="category" id="api-category5">
+                            </span>
+
+                            <span class="date" id="api-date5">
+                            </span>
+
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-
-          <div class="imgadap">
-            <div class="">
-              <a href="">
-                <span id="api-img2"></span>
-              </a>
-            </div>
-
-            <div class="slider-content">
-              <div class="container-content">
-                <span class="title" id="api-title1">
-                </span>
-
-                <span class="category" id="api-category1">
-                </span>
-
-                <span class="date" id="api-date1">
-                </span>
-
-              </div>
-            </div>
-          </div>
-
-          <div class="imgadap">
-            <div class="imag-background">
-              <a href="">
-                <span id="api-img3"></span>
-              </a>
-            </div>
-          </div>
-
-          <div class="imgadap">
-            <div class="imag-background">
-              <a href="">
-                <span id="api-img4"></span>
-              </a>
-            </div>
-          </div>
-
-          <div class="imgadap">
-            <div class="    ">
-              <a href="">
-                <span id="api-img5"></span>
-              </a>
-            </div>
-
-            <div class="slider-content">
-              <div class="container-content">
-                <span class="title" id="api-title2">
-                </span>
-
-                <span class="category" id="api-category2">
-                </span>
-
-                <span class="date" id="api-date2">
-                </span>
-                
-              </div>
-            </div>
-          </div>
-
-          <div class="imgadap">
-            <div class="imag-background">
-              <a href="">
-                <span id="api-img6"></span>
-              </a>
-            </div>
-          </div>
         </div>
-      </div>
     </section>
 
     <!-- Sestion 2 - Cards Healthy-->
     <section id="section-2">
-      <div class="all">
-        <div class="imagen">
-          <div id="image"><img></div>
-          <div class="image-card">
-            <div class="image-card-title">
-              <a href="Index.html">
-                <p>
-                  <div id="green-text">THE BEST</div>
-                  <div id="black-text">Healthy Food</div>
-                </p>
-              </a>
+        <div class="all">
+            <div class="imagen">
+                <div id="image"><img></div>
+                <div class="image-card">
+                    <div class="image-card-title">
+                        <a href="Index.html">
+                            <p>
+                                <div id="green-text">THE BEST</div>
+                                <div id="black-text">Healthy Food</div>
+                            </p>
+                        </a>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-       
-        <div class="imagen">
-          <div id="image-1"><img></div>
-          <div class="image-card">
-            <div class="image-card-title">
-              <a href="Index.html">
-                <p>
-                  <div id="green-text-1">THE BEST</div>
-                  <div id="black-text-1">Healthy Food</div>
-                </p>
-              </a>
-            </div>
-          </div>
-        </div>
 
-        <div class="imagen">
-          <div id="image-2"><img></div>
-          <div class="image-card">
-            <div class="image-card-title">
-              <a href="Index.html">
-                <p>
-                  <div id="green-text-2">THE BEST</div>
-                  <div id="black-text-2">Healthy Food</div>
-                </p>
-              </a>
+            <div class="imagen">
+                <div id="image-1"><img></div>
+                <div class="image-card">
+                    <div class="image-card-title">
+                        <a href="Index.html">
+                            <p>
+                                <div id="green-text-1">THE BEST</div>
+                                <div id="black-text-1">Healthy Food</div>
+                            </p>
+                        </a>
+                    </div>
+                </div>
             </div>
-          </div>
+
+            <div class="imagen">
+                <div id="image-2"><img></div>
+                <div class="image-card">
+                    <div class="image-card-title">
+                        <a href="Index.html">
+                            <p>
+                                <div id="green-text-2">THE BEST</div>
+                                <div id="black-text-2">Healthy Food</div>
+                            </p>
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
     </section>
 
     <!--Section 3 - Principales recetas img cruzadas-->
     <section class="main-twocards">
-      <div class="horizontal-1">
-        <div class="horizontal-1-img" id="imagen"></div>
-        <div class="summary">
-          <h4 id="categoria"></h4>
-          <h2 id="titulo"></h2>
-          <datetime datetime="2020-03-10 18:00"></datetime>
-          <time><span id="date"></span> / <span id="autor"></span></time>
+        <div class="horizontal-1">
+            <div class="horizontal-1-img" id="imagen"></div>
+            <div class="summary">
+                <h4 id="categoria"></h4>
+                <h2 id="titulo"></h2>
+                <datetime datetime="2020-03-10 18:00"></datetime>
+                <time><span id="date"></span> / <span id="autor"></span></time>
 
-          <p id="parrafo"></p>
-          <a href=""><button class="green"></button></a>
+                <p id="parrafo"></p>
+                <a href=""><button class="green">Read more.</button></a>
+            </div>
+            <div class="clear-float"></div>
         </div>
-        <div class="clear-float"></div>
-      </div>
 
-      <div class="horizontal-2">
-        <div class="summary2">
-          <h4 id="categoria2"></h4>
-          <h2 id="titulo2"></h2>
-          <datetime datetime="2020-03-10 18:00"></datetime>
-          <time><span id="date2"></span> / <span id="autor2"></span></time>
-          <p id="parrafo2"></p>
-          <a href=""><button class="green"></button></a>
+        <div class="horizontal-2">
+            <div class="summary2">
+                <h4 id="categoria2"></h4>
+                <h2 id="titulo2"></h2>
+                <datetime datetime="2020-03-10 18:00"></datetime>
+                <time><span id="date2"></span> / <span id="autor2"></span></time>
+                <p id="parrafo2"></p>
+                <a href=""><button class="green">Read more.</button></a>
+            </div>
+            <div class="horizontal-2-img" id="imagen2"></div>
+            <div class="clear-float"></div>
         </div>
-        <div class="horizontal-2-img" id="imagen2"></div>
-        <div class="clear-float"></div>
-      </div>
     </section>
     <script type="text/javascript" src="./js/cards-left.js"></script>
     <!-- cards 3 izquierda y 5 derecha -->
@@ -277,75 +322,102 @@
                 STILES
               </p>
             </div>
-          </div>
+
+            <div class="left-1">
+                <div id="card-left-img-2">
+                    <img />
+                </div>
+                <div class="content">
+                    <div id="card-left-content-name-2"></div> <br>
+                    <div id="card-left-content-title-2"></div>
+                    <time><span id="date-2"></span> / <span id="autor-2"></span></time> <br><br>
+                    <div id="card-left-content-text-2"></div>
+                </div>
+            </div>
+
+            <div class="left-1">
+                <div id="card-left-img-3">
+                    <img />
+                </div>
+                <div class="content">
+                    <div id="card-left-content-name-3"></div> <br>
+                    <div id="card-left-content-title-3"></div>
+                    <time><span id="date-3"></span> / <span id="autor-3"></span></time> <br><br>
+                    <div id="card-left-content-text-3"></div>
+                </div>
+            </div>
         </div>
 
-        <div class="five-right">
-          <div class="right-card-one">
-            <div class="right-card-one-img">
-              <img src="img/egg2.jpg" alt="recipe" />
+        <!-- cards 5 derecha -->
+        <div class="right">
+            <div class="five-right">
+                <div class="right-card-one">
+                    <div id="right-card-img">
+                        <img src="img/egg1.jpg" alt="recipe" />
+                    </div>
+                    <div class="right-card-one-content">
+                    <div id="card-right-content-title"></div>
+                    <time><span id="date-right"></span> / <span id="autor-right"></span></time> <br><br>
+                    </div>
+                </div>
             </div>
-            <div class="right-card-one-content">
-              <p class="right-card-one-content-title">
-                <span>Burger with fries</span><br /><br />
-                <time datetime="JULY 11, 2018">JULY 11, 2018</time> / BY JULIA
-                STILES
-              </p>
-            </div>
-          </div>
-        </div>
 
-        <div class="five-right">
-          <div class="right-card-one">
-            <div class="right-card-one-img">
-              <img src="img/egg3.jpg" alt="recipe" />
+            <div class="five-right">
+                <div class="right-card-one">
+                    <div id="right-card-img-2">
+                        <img src="img/egg1.jpg" alt="recipe" />
+                    </div>
+                    <div class="right-card-one-content">
+                    <div id="card-right-content-title-2"></div>
+                    <time><span id="date-right-2"></span> / <span id="autor-right-2"></span></time> <br><br>
+                    </div>
+                </div>
             </div>
-            <div class="right-card-one-content">
-              <p class="right-card-one-content-title">
-                <span>Avocado & Oisters</span><br /><br />
-                <time datetime="JULY 11, 2018">JULY 11, 2018</time> / BY JULIA
-                STILES
-              </p>
-            </div>
-          </div>
-        </div>
 
-        <div class="five-right">
-          <div class="right-card-one">
-            <div class="right-card-one-img">
-              <img src="img/egg4.jpg" alt="recipe" />
+            <div class="five-right">
+                <div class="right-card-one">
+                    <div id="right-card-img-3">
+                        <img src="img/egg1.jpg" alt="recipe" />
+                    </div>
+                    <div class="right-card-one-content">
+                    <div id="card-right-content-title-3"></div>
+                    <time><span id="date-right-3"></span> / <span id="autor-right-3"></span></time> <br><br>
+                    </div>
+                </div>
             </div>
-            <div class="right-card-one-content">
-              <p class="right-card-one-content-title">
-                <span>Tortilla prawns</span><br /><br />
-                <time datetime="JULY 11, 2018">JULY 11, 2018</time> / BY JULIA
-                STILES
-              </p>
-            </div>
-          </div>
-        </div>
 
-        <div class="five-right">
-          <div class="right-card-one">
-            <div class="right-card-one-img">
-              <img src="img/egg5.jpg" alt="recipe" />
+            <div class="five-right">
+                <div class="right-card-one">
+                    <div id="right-card-img-4">
+                        <img src="img/egg1.jpg" alt="recipe" />
+                    </div>
+                    <div class="right-card-one-content">
+                    <div id="card-right-content-title-4"></div>
+                    <time><span id="date-right-4"></span> / <span id="autor-right-4"></span></time> <br><br>
+                    </div>
+                </div>
             </div>
-            <div class="right-card-one-content">
-              <p class="right-card-one-content-title">
-                <span>Burger with fries</span><br /><br />
-                <time datetime="JULY 11, 2018">JULY 11, 2018</time> / BY JULIA
-                STILES
-              </p>
+
+            <div class="five-right">
+                <div class="right-card-one">
+                    <div id="right-card-img-5">
+                        <img src="img/egg1.jpg" alt="recipe" />
+                    </div>
+                    <div class="right-card-one-content">
+                    <div id="card-right-content-title-5"></div>
+                    <time><span id="date-right-5"></span> / <span id="autor-right-5"></span></time> <br><br>
+                    </div>
+                </div>
             </div>
-          </div>
+            
         </div>
-      </div>
-      <div class="clear-float"></div>
+        <div class="clear-float"></div>
     </section>
     <div class="clear-float"></div>
-  </body>
+</body>
 
-  <footer>
+<footer>
     <div class="footer-category-page">Copyright &copy;2020</div>
-  </footer>
+</footer>
+
 </html>

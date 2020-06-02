@@ -7,11 +7,11 @@ document.addEventListener('DOMContentLoaded', function(){
     var img5 = document.getElementById('api-img5');
     var img6 = document.getElementById('api-img6');
     var title1 = document.getElementById('api-title1');
-    var title2 = document.getElementById('api-title2');
+    var title2 = document.getElementById('api-title4');
     var category1 = document.getElementById('api-category1');
-    var category2 = document.getElementById('api-category2');
+    var category2 = document.getElementById('api-category4');
     var date1 = document.getElementById('api-date1');
-    var date2 = document.getElementById('api-date2'); 
+    var date2 = document.getElementById('api-date4'); 
     
     fetch('http://api.imagendigital.com/v2/cocinadelirante/node.json/339fd1e0444ddbbd4d4528d8df161108?taxonomy.tid=13&type=receta&fields=title,image.url,author.name,taxonomy.name,created&limit=6')
     .then(function(respuesta) {
