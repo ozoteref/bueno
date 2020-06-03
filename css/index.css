@@ -120,6 +120,10 @@ section#main-slider {
   opacity: 1;
 }
 
+.slick-current + .slick-active div.imag-background {
+  filter: brightness(1);
+}
+
 .container-content {
   border-style: solid;
   border-color: #b0c364;

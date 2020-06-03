@@ -43,8 +43,3 @@ document.addEventListener('DOMContentLoaded', function(){
      })  
  });
 
-//  const structureCarrusel = {year:'numeric', mounth:'short', day:'numeric'};
-
-//  let dateCarrusel = miJeison.data[0].created;
-//  building = new Date(dateCarrusel*1000);
-//  buildingString = building.toLocaleDateString('es-MX',structureCarrusel);
