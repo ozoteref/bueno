@@ -88,6 +88,7 @@ section#main-slider {
   height: 3em;
   text-align: center;
   z-index: 1;
+  cursor: pointer;
 }
 
 .slick-next {
@@ -100,6 +101,7 @@ section#main-slider {
   width: 4.5em;
   height: 3em;
   text-align: center;
+  cursor: pointer;
 }
 
 /* Card del carrusel*/
@@ -113,6 +115,15 @@ section#main-slider {
   position: absolute;
   top: 60px;
   left: 55px;
+  opacity: 0;
+}
+
+.slick-current + .slick-active div.slider-content{
+  opacity: 1;
+}
+
+.slick-current + .slick-active div.imag-background {
+  filter: brightness(1);
 }
 
 .container-content {
